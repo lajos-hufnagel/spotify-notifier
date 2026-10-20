@@ -1,0 +1,48 @@
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Build artifacts of the app (./build_app.sh)
+build/
+*.app
+
+# macOS
+.DS_Store
+._*
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+
+# Editor
+.vscode/*.log
+
+# --- Secrets / environment variables (never commit) ---
+.env
+.env.*
+*.secret
+secrets/
+# Additional key/certificate formats
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Exception: templates WITHOUT real values stay versionable.
+# Important: the negation must come AFTER the rules above, otherwise it has no
+# effect.
+!.env.example
+!.env.example.*
+
+# --- Python ---
+__pycache__/
+.venv/
+
+# --- Node ---
+node_modules/
+
+# Log output of background runs
+nohup.out
