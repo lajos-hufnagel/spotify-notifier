@@ -246,3 +246,8 @@ docs/publishing.md        Checklist for a public release (Developer ID, notarisa
 ## Development approach
 
 Personal project developed with AI assistance. I defined requirements, guided implementation, reviewed results and iterated through practical testing.
+
+
+## Rights
+
+Copyright (c) 2026 Lajos Hufnagel. All rights reserved; see [LICENSE](LICENSE). Public source visibility does not grant an open-source license. Third-party rights remain unchanged.
